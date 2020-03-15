@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:relative;
+}
+
+header, footer{
+    background:linear-gradient(to right,rgb(218, 72, 72),rgb(216, 19, 19));
+    color:white;
+    height:15vh;
+}
+
+body{
+    background:linear-gradient(to right,rgb(151, 129, 129),rgb(192, 174, 174))
+}
+
+.one{
+    top:-15%;
+    font-size:100px;
+    left:5%;
+}
+
+.two{
+    left:25%;
+}
+
+.three{
+    left:25%;
+    top:40%;
+}
+
+.four{
+    left:50%;
+    top:40%;
+}
+
+.headerh1{
+    position:absolute;
+}
+
+#actors{
+    top:20px;
+    left:35%;
+    width:150px;
+    height:25px;
+    background:white;
+    font-size:18px;
+}
+
+.output{
+    top:25%;
+    background:linear-gradient(to right,rgb(218, 72, 72),rgb(216, 19, 19));
+    color:white;
+}
+
+
+main{
+    height:80vh;
+}
+
+
+footer{
+    text-align:center;
+    height:10vh;
+}
+
+.icon-row{
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.icon-item{
+    list-style:none;
+    margin-left:10px;
+    color:white;
+}
+
+.icon-item a{
+    color:white;
+}
